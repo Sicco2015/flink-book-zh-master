@@ -1,0 +1,70 @@
+root: index
+subtrees:
+  - numbered: 2
+    entries:
+      - file: ch-big-data-intro/index
+        entries:
+          - file: ch-big-data-intro/bigdata
+          - file: ch-big-data-intro/batch-stream
+          - file: ch-big-data-intro/technologies
+          - file: ch-big-data-intro/evolution
+          - file: ch-big-data-intro/stream-processing-basics
+          - file: ch-big-data-intro/bigdata-programming-languages
+          - file: ch-big-data-intro/exercise-stream-with-kafka
+      - file: ch-programming-basics/index
+        entries:
+          - file: ch-programming-basics/inheritance-and-polymorphism
+          - file: ch-programming-basics/generics
+          - file: ch-programming-basics/functional-programming
+          - file: ch-programming-basics/exercise-dev-environment
+      - file: ch-system-design/index
+        entries:
+          - file: ch-system-design/dataflow
+          - file: ch-system-design/flink-core
+          - file: ch-system-design/task-resource
+          - file: ch-system-design/exercise-wordcount
+      - file: ch-datastream-api/index
+        entries:
+          - file: ch-datastream-api/skeleton
+          - file: ch-datastream-api/transformations
+          - file: ch-datastream-api/data-types
+          - file: ch-datastream-api/user-define-functions
+          - file: ch-datastream-api/exercise-stock-basic
+      - file: ch-time-window/index
+        entries:
+          - file: ch-time-window/time
+          - file: ch-time-window/process-function
+          - file: ch-time-window/window
+          - file: ch-time-window/join
+          - file: ch-time-window/late-elements
+          - file: ch-time-window/exercise-stock
+      - file: ch-state-checkpoint/index
+        entries:
+          - file: ch-state-checkpoint/state
+          - file: ch-state-checkpoint/checkpoint
+          - file: ch-state-checkpoint/savepoint
+          - file: ch-state-checkpoint/exercise-state
+      - file: ch-flink-connectors/index
+        entries:
+          - file: ch-flink-connectors/exactly-once
+          - file: ch-flink-connectors/custom-source-and-sink
+          - file: ch-flink-connectors/flink-connector
+          - file: ch-flink-connectors/exercise-stock-price-with-source-sink
+      - file: ch-table-sql/index
+        entries:
+          - file: ch-table-sql/table-overview
+          - file: ch-table-sql/dynamic-table
+          - file: ch-table-sql/sql-window
+          - file: ch-table-sql/sql-join
+          - file: ch-table-sql/sql-ddl
+          - file: ch-table-sql/system-function
+          - file: ch-table-sql/catalog-function
+          - file: ch-table-sql/exercise-iot
+      - file: ch-deployment-and-configuration/index
+        entries:
+          - file: ch-deployment-and-configuration/deployment-and-configuration
+          - file: ch-deployment-and-configuration/configuration-file
+          - file: ch-deployment-and-configuration/operator-chaining-slot-sharing
+          - file: ch-deployment-and-configuration/cli
+          - file: ch-deployment-and-configuration/flink-with-hadoop
+          - file: ch-deployment-and-configuration/exercise-job-submission
